@@ -28,15 +28,12 @@ import { VisualizationCardComponent } from './pages/dashboard/components/visuali
 import { DashboardMenuComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu.component';
 import { DashboardMenuDesktopComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-desktop/dashboard-menu-desktop.component';
 import { DashboardMenuMobileComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-mobile/dashboard-menu-mobile.component';
-import { DashboardMenuSearchComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-search/dashboard-menu-search.component';
 import { DashboardMenuListDesktopComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-desktop/dashboard-menu-list-desktop/dashboard-menu-list-desktop.component';
 import { DashboardMenuItemDesktopComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-desktop/dashboard-menu-item-desktop/dashboard-menu-item-desktop.component';
-import { DashboardMenuCreateComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-create/dashboard-menu-create.component';
 import { DashboardHeaderComponent } from './pages/dashboard/components/dashboard-header/dashboard-header.component';
 import { CurrentDashboardTitleComponent } from './pages/dashboard/components/dashboard-header/current-dashboard-title/current-dashboard-title.component';
 import { CurrentDashboardDescriptionComponent } from './pages/dashboard/components/dashboard-header/current-dashboard-description/current-dashboard-description.component';
 import { DashboardGlobalFilterComponent } from './pages/dashboard/components/dashboard-header/dashboard-global-filter/dashboard-global-filter.component';
-import { DashboardItemSearchComponent } from './pages/dashboard/components/dashboard-header/dashboard-item-search/dashboard-item-search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { VisualizationFilterSectionComponent } from './pages/dashboard/components/visualization-list/visualization-card/visualization-filter-section/visualization-filter-section.component';
@@ -45,8 +42,6 @@ import { VisualizationDeleteSectionComponent } from './pages/dashboard/component
 import { VisualizationResizeSectionComponent } from './pages/dashboard/components/visualization-list/visualization-card/visualization-resize-section/visualization-resize-section.component';
 import { VisualizationTypesSectionComponent } from './pages/dashboard/components/visualization-list/visualization-card/visualization-types-section/visualization-types-section.component';
 import { VisualizationDownloadSectionComponent } from './pages/dashboard/components/visualization-list/visualization-card/visualization-download-section/visualization-download-section.component';
-import { CurrentDashboardBookmarkButtonComponent } from './pages/dashboard/components/dashboard-header/current-dashboard-bookmark-button/current-dashboard-bookmark-button.component';
-import { CurrentDashboardShareSectionComponent } from './pages/dashboard/components/dashboard-header/current-dashboard-share-section/current-dashboard-share-section.component';
 import { ChartContainerComponent } from './pages/dashboard/components/visualization-list/visualization-card/chart-container/chart-container.component';
 import { ChartModule } from './modules/chart/chart.module';
 import { DashboardProgressComponent } from './pages/dashboard/components/dashboard-progress/dashboard-progress.component';
@@ -61,7 +56,6 @@ import { MapModule } from './modules/map/map.module';
 import { FullScreenDashboardItemViewComponent } from './pages/full-screen-dashboard-item-view/full-screen-dashboard-item-view.component';
 
 import { DashboardMenuEditComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-edit/dashboard-menu-edit.component';
-import { DashboardMenuDeleteComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-delete/dashboard-menu-delete.component';
 import { FilterByNamePipe } from './pipes/filter-by-name.pipe';
 import { ClickOutsideDirective } from './directives/click-outside.directive';
 import { KNumberPipe } from './pipes/k-number.pipe';
@@ -74,7 +68,6 @@ import { VisualizationDeleteDialogComponent } from './pages/dashboard/components
 import { ResourcesContainerComponent } from './pages/dashboard/components/visualization-list/visualization-card/resources-container/resources-container.component';
 import { ReportsContainerComponent } from './pages/dashboard/components/visualization-list/visualization-card/reports-container/reports-container.component';
 import { AppContainerComponent } from './pages/dashboard/components/visualization-list/visualization-card/app-container/app-container.component';
-import { DashboardMenuBookmarkComponent } from './pages/dashboard/components/dashboard-menu/dashboard-menu-bookmark/dashboard-menu-bookmark.component';
 import { DashboardNotificationComponent } from './pages/dashboard/components/dashboard-header/dashboard-notification/dashboard-notification.component';
 import { FeedbackMessageModule } from './modules/feedback-message/feedback-message.module';
 
@@ -99,29 +92,23 @@ export function HttpLoaderFactory(http: HttpClient) {
     DashboardMenuComponent,
     DashboardMenuDesktopComponent,
     DashboardMenuMobileComponent,
-    DashboardMenuSearchComponent,
     DashboardMenuListDesktopComponent,
     DashboardMenuItemDesktopComponent,
-    DashboardMenuCreateComponent,
     DashboardHeaderComponent,
     CurrentDashboardTitleComponent,
     CurrentDashboardDescriptionComponent,
     DashboardGlobalFilterComponent,
-    DashboardItemSearchComponent,
     VisualizationFilterSectionComponent,
     VisualizationInterpretationButtonComponent,
     VisualizationDeleteSectionComponent,
     VisualizationResizeSectionComponent,
     VisualizationTypesSectionComponent,
     VisualizationDownloadSectionComponent,
-    CurrentDashboardBookmarkButtonComponent,
-    CurrentDashboardShareSectionComponent,
     ChartContainerComponent,
     DashboardProgressComponent,
     TableContainerComponent,
     FullScreenDashboardItemViewComponent,
     DashboardMenuEditComponent,
-    DashboardMenuDeleteComponent,
     FilterByNamePipe,
     ClickOutsideDirective,
     KNumberPipe,
@@ -133,7 +120,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     ReportsContainerComponent,
     AppContainerComponent,
     SafePipe,
-    DashboardMenuBookmarkComponent,
     DashboardNotificationComponent,
     VisualizationErrorNotifierComponent,
     SafeHtmlPipe

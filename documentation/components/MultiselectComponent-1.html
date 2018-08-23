@@ -36,10 +36,10 @@
             <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
             <ul class="links">
                     <li class="link">
-                        <a 
-                            
-                             href="overview.html" 
-                             href="overview.html" 
+                        <a
+
+                             href="overview.html"
+                             href="overview.html"
                             data-type="chapter-link">
                             <span class="fa fa-fw fa-th"></span>Overview
                         </a>
@@ -2115,10 +2115,10 @@
             <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
             <ul class="links">
                     <li class="link">
-                        <a 
-                            
-                             href="overview.html" 
-                             href="overview.html" 
+                        <a
+
+                             href="overview.html"
+                             href="overview.html"
                             data-type="chapter-link">
                             <span class="fa fa-fw fa-th"></span>Overview
                         </a>
@@ -4560,7 +4560,7 @@
 
 
     <section>
-    
+
         <h3 id="methods">
             Methods
         </h3>
@@ -4606,20 +4606,20 @@
                                         <tbody>
                                                 <tr>
                                                         <td>item</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                                 <tr>
                                                         <td>array</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                         </tbody>
@@ -4632,7 +4632,7 @@
 
                             </div>
                                 <div class="io-description">
-                                    
+
                                 </div>
                     </td>
                 </tr>
@@ -4680,20 +4680,20 @@
                                         <tbody>
                                                 <tr>
                                                         <td>item</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                                 <tr>
                                                         <td>event</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                         </tbody>
@@ -4706,7 +4706,7 @@
 
                             </div>
                                 <div class="io-description">
-                                    
+
                                 </div>
                     </td>
                 </tr>
@@ -4868,20 +4868,20 @@
                                         <tbody>
                                                 <tr>
                                                         <td>item</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                                 <tr>
                                                         <td>e</td>
-                                                    
+
                                                     <td>
                                                             no
                                                     </td>
-                                                    
+
 
                                                 </tr>
                                         </tbody>
@@ -4894,7 +4894,7 @@
 
                             </div>
                                 <div class="io-description">
-                                    
+
                                 </div>
                     </td>
                 </tr>
@@ -4903,7 +4903,7 @@
 </section>
 
     <section>
-    
+
         <h3 id="inputs">
             Properties
         </h3>
@@ -5081,7 +5081,7 @@ export class MultiselectComponent implements OnInit {
         </div>
     </div>
 
-    
+
 </div>
 
 <script src="../js/libs/vis.min.js"></script>
@@ -5089,7 +5089,7 @@ export class MultiselectComponent implements OnInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><div class="multiselect-container" appClickOutside (clickOutside)="hideOptions = true">    <div class="show_items" (click)="displayPerTree()">        <img *ngIf="selectionMode == \'orgUnit\'" src="assets/icons/tree.png" class="group-image">        <img *ngIf="selectionMode == \'Level\'" src="assets/icons/level.png" class="group-image">        <img *ngIf="selectionMode == \'Group\'" src="assets/icons/group.png" class="group-image">        <span *ngIf="selected_items.length == 1">{{ prefix }}</span>        <span *ngIf="selected_items.length > 1">{{ prefix_multiple }}</span>        <span *ngIf="selected_items.length > 3">      <span class="selected-item">        {{ selected_items[0].name }}        <a (click)="deActivateNode(selected_items[0],$event)" class="removeitem" >x</a>      </span>        <span class="selected-item">        {{ selected_items[1].name }}        <a (click)="deActivateNode(selected_items[1],$event)" class="removeitem">x</a>      </span>        <span class="selected-item">        &nbsp; and {{ selected_items.length - 2 }} more      </span>        </span>        <span *ngIf="selected_items.length <= 3">       <span *ngFor="let item of selected_items" class="selected-item ng-binding ng-scope">        {{ item.name }}         <a (click)="deActivateNode(item,$event)" class="removeitem">x</a>      </span>        </span>        <span *ngIf="selected_items.length == 0">      {{ placeholder }}    </span>        <img src="assets/icons/arrow-down.png" class="float-right" style="height: 15px; padding-top: 5px; padding-left: 5px;" alt="">    </div>    <ul class="item-list" *ngIf="!hideOptions">        <li *ngFor="let item of items" class="period" (click)="selectItem(item, $event)" [ngClass]="{\'selected\': checkItemAvailabilty(item,selected_items)}" title="Click to select">            {{ item.name }}        </li>    </ul></div></div>'
-    var COMPONENTS = [{'name': 'AddCommentComponent', 'selector': 'app-add-comment'},{'name': 'AddInterpretationComponent', 'selector': 'app-add-interpretation'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppContainerComponent', 'selector': 'app-app-container'},{'name': 'ChartContainerComponent', 'selector': 'app-chart-container'},{'name': 'ChartItemComponent', 'selector': 'app-chart-item'},{'name': 'ChartListComponent', 'selector': 'app-chart-list'},{'name': 'ContainerMapComponent', 'selector': 'app-container-map'},{'name': 'CurrentDashboardBookmarkButtonComponent', 'selector': 'app-current-dashboard-bookmark-button'},{'name': 'CurrentDashboardDescriptionComponent', 'selector': 'app-current-dashboard-description'},{'name': 'CurrentDashboardShareSectionComponent', 'selector': 'app-current-dashboard-share-section'},{'name': 'CurrentDashboardTitleComponent', 'selector': 'app-current-dashboard-title'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardGlobalFilterComponent', 'selector': 'app-dashboard-global-filter'},{'name': 'DashboardHeaderComponent', 'selector': 'app-dashboard-header'},{'name': 'DashboardItemSearchComponent', 'selector': 'app-dashboard-item-search'},{'name': 'DashboardMenuBookmarkComponent', 'selector': 'app-dashboard-menu-bookmark'},{'name': 'DashboardMenuComponent', 'selector': 'app-dashboard-menu'},{'name': 'DashboardMenuCreateComponent', 'selector': 'app-dashboard-menu-create'},{'name': 'DashboardMenuDeleteComponent', 'selector': 'app-dashboard-menu-delete'},{'name': 'DashboardMenuDesktopComponent', 'selector': 'app-dashboard-menu-desktop'},{'name': 'DashboardMenuEditComponent', 'selector': 'app-dashboard-menu-edit'},{'name': 'DashboardMenuItemDesktopComponent', 'selector': 'app-dashboard-menu-item-desktop'},{'name': 'DashboardMenuListDesktopComponent', 'selector': 'app-dashboard-menu-list-desktop'},{'name': 'DashboardMenuMobileComponent', 'selector': 'app-dashboard-menu-mobile'},{'name': 'DashboardMenuSearchComponent', 'selector': 'app-dashboard-menu-search'},{'name': 'DashboardNotificationComponent', 'selector': 'app-dashboard-notification'},{'name': 'DashboardProgressComponent', 'selector': 'app-dashboard-progress'},{'name': 'DataFilterComponent', 'selector': 'app-data-filter'},{'name': 'DataFilterComponent', 'selector': 'app-data-filter'},{'name': 'DataTableComponent', 'selector': 'app-data-table'},{'name': 'DeleteCommentComponent', 'selector': 'app-delete-comment'},{'name': 'DictionaryItemComponent', 'selector': 'app-dictionary-item'},{'name': 'DictionaryListComponent', 'selector': 'app-dictionary-list'},{'name': 'DictionaryProgressComponent', 'selector': 'app-dictionary-progress'},{'name': 'EditCommentComponent', 'selector': 'app-edit-comment'},{'name': 'EditInterpretationComponent', 'selector': 'app-edit-interpretation'},{'name': 'FullScreenDashboardItemViewComponent', 'selector': 'app-full-screen-dashboard-item-view'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'InterpretationCommentComponent', 'selector': 'app-interpretation-comment'},{'name': 'InterpretationContainerComponent', 'selector': 'app-interpretation-container'},{'name': 'InterpretationLikeComponent', 'selector': 'app-interpretation-like'},{'name': 'InterpretationListComponent', 'selector': 'app-interpretation-list'},{'name': 'LayoutComponent', 'selector': 'app-layout'},{'name': 'LayoutComponent', 'selector': 'app-layout'},{'name': 'ListTableComponent', 'selector': 'app-list-table'},{'name': 'LoginFormComponent', 'selector': 'app-login-form'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapFilterSectionComponent', 'selector': 'app-map-filter-section'},{'name': 'MapLoaderComponent', 'selector': 'app-map-loader'},{'name': 'MapStyleComponent', 'selector': 'app-map-style'},{'name': 'MapVisualizerComponent', 'selector': 'hisptz-map-visualizer'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'MenuLoaderComponent', 'selector': 'app-menu-loader'},{'name': 'MenuNotificationComponent', 'selector': 'app-menu-notification'},{'name': 'MenuProfileComponent', 'selector': 'app-menu-profile'},{'name': 'MenuSearchComponent', 'selector': 'app-menu-search'},{'name': 'MenuSideBarComponent', 'selector': 'app-menu-side-bar'},{'name': 'MessageConversationItemComponent', 'selector': 'app-message-conversation-item'},{'name': 'MessageConversationListComponent', 'selector': 'app-message-conversation-list'},{'name': 'MultiselectComponent', 'selector': 'app-multiselect'},{'name': 'MultiselectComponent', 'selector': 'app-multiselect'},{'name': 'OrgUnitFilterComponent', 'selector': 'app-org-unit-filter'},{'name': 'OrgUnitFilterComponent', 'selector': 'app-org-unit-filter'},{'name': 'PeriodFilterComponent', 'selector': 'app-period-filter'},{'name': 'PeriodFilterComponent', 'selector': 'app-period-filter'},{'name': 'ProgressLoaderComponent', 'selector': 'app-progress-loader'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportsContainerComponent', 'selector': 'app-reports-container'},{'name': 'ResourcesComponent', 'selector': 'app-resources'},{'name': 'ResourcesContainerComponent', 'selector': 'app-resources-container'},{'name': 'SharingFilterComponent', 'selector': 'app-sharing-filter'},{'name': 'TableContainerComponent', 'selector': 'app-table-container'},{'name': 'TableItemComponent', 'selector': 'app-table-item'},{'name': 'TableListComponent', 'selector': 'app-table-list'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'UsersContainerComponent', 'selector': 'app-users-container'},{'name': 'VisualizationCardComponent', 'selector': 'app-visualization-card'},{'name': 'VisualizationCardLoaderComponent', 'selector': 'app-visualization-card-loader'},{'name': 'VisualizationDeleteDialogComponent', 'selector': 'app-visualization-delete-dialog'},{'name': 'VisualizationDeleteSectionComponent', 'selector': 'app-visualization-delete-section'},{'name': 'VisualizationDownloadSectionComponent', 'selector': 'app-visualization-download-section'},{'name': 'VisualizationErrorNotifierComponent', 'selector': 'app-visualization-error-notifier'},{'name': 'VisualizationFilterSectionComponent', 'selector': 'app-visualization-filter-section'},{'name': 'VisualizationInterpretationButtonComponent', 'selector': 'app-visualization-interpretation-button'},{'name': 'VisualizationLegendComponent', 'selector': 'app-visualization-legend'},{'name': 'VisualizationListComponent', 'selector': 'app-visualization-list'},{'name': 'VisualizationResizeSectionComponent', 'selector': 'app-visualization-resize-section'},{'name': 'VisualizationTypesSectionComponent', 'selector': 'app-visualization-types-section'}];
+    var COMPONENTS = [{'name': 'AddCommentComponent', 'selector': 'app-add-comment'},{'name': 'AddInterpretationComponent', 'selector': 'app-add-interpretation'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppContainerComponent', 'selector': 'app-app-container'},{'name': 'ChartContainerComponent', 'selector': 'app-chart-container'},{'name': 'ChartItemComponent', 'selector': 'app-chart-item'},{'name': 'ChartListComponent', 'selector': 'app-chart-list'},{'name': 'ContainerMapComponent', 'selector': 'app-container-map'},{'name': 'CurrentDashboardBookmarkButtonComponent', 'selector': 'app-current-dashboard-bookmark-button'},{'name': 'CurrentDashboardDescriptionComponent', 'selector': 'app-current-dashboard-description'},{'name': 'CurrentDashboardShareSectionComponent', 'selector': 'app-current-dashboard-share-section'},{'name': 'CurrentDashboardTitleComponent', 'selector': 'app-current-dashboard-title'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardGlobalFilterComponent', 'selector': 'app-dashboard-global-filter'},{'name': 'DashboardHeaderComponent', 'selector': 'app-dashboard-header'},{'name': 'DashboardItemSearchComponent', 'selector': ''},{'name': 'DashboardMenuBookmarkComponent', 'selector': ''},{'name': 'DashboardMenuComponent', 'selector': 'app-dashboard-menu'},{'name': 'DashboardMenuCreateComponent', 'selector': ''},{'name': 'DashboardMenuDeleteComponent', 'selector': ''},{'name': 'DashboardMenuDesktopComponent', 'selector': 'app-dashboard-menu-desktop'},{'name': 'DashboardMenuEditComponent', 'selector': 'app-dashboard-menu-edit'},{'name': 'DashboardMenuItemDesktopComponent', 'selector': 'app-dashboard-menu-item-desktop'},{'name': 'DashboardMenuListDesktopComponent', 'selector': 'app-dashboard-menu-list-desktop'},{'name': 'DashboardMenuMobileComponent', 'selector': 'app-dashboard-menu-mobile'},{'name': 'DashboardMenuSearchComponent', 'selector': ''},{'name': 'DashboardNotificationComponent', 'selector': 'app-dashboard-notification'},{'name': 'DashboardProgressComponent', 'selector': 'app-dashboard-progress'},{'name': 'DataFilterComponent', 'selector': 'app-data-filter'},{'name': 'DataFilterComponent', 'selector': 'app-data-filter'},{'name': 'DataTableComponent', 'selector': 'app-data-table'},{'name': 'DeleteCommentComponent', 'selector': 'app-delete-comment'},{'name': 'DictionaryItemComponent', 'selector': 'app-dictionary-item'},{'name': 'DictionaryListComponent', 'selector': 'app-dictionary-list'},{'name': 'DictionaryProgressComponent', 'selector': 'app-dictionary-progress'},{'name': 'EditCommentComponent', 'selector': 'app-edit-comment'},{'name': 'EditInterpretationComponent', 'selector': 'app-edit-interpretation'},{'name': 'FullScreenDashboardItemViewComponent', 'selector': 'app-full-screen-dashboard-item-view'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'InterpretationCommentComponent', 'selector': 'app-interpretation-comment'},{'name': 'InterpretationContainerComponent', 'selector': 'app-interpretation-container'},{'name': 'InterpretationLikeComponent', 'selector': 'app-interpretation-like'},{'name': 'InterpretationListComponent', 'selector': 'app-interpretation-list'},{'name': 'LayoutComponent', 'selector': 'app-layout'},{'name': 'LayoutComponent', 'selector': 'app-layout'},{'name': 'ListTableComponent', 'selector': 'app-list-table'},{'name': 'LoginFormComponent', 'selector': 'app-login-form'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapFilterSectionComponent', 'selector': 'app-map-filter-section'},{'name': 'MapLoaderComponent', 'selector': 'app-map-loader'},{'name': 'MapStyleComponent', 'selector': 'app-map-style'},{'name': 'MapVisualizerComponent', 'selector': 'hisptz-map-visualizer'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'MenuLoaderComponent', 'selector': 'app-menu-loader'},{'name': 'MenuNotificationComponent', 'selector': 'app-menu-notification'},{'name': 'MenuProfileComponent', 'selector': 'app-menu-profile'},{'name': 'MenuSearchComponent', 'selector': 'app-menu-search'},{'name': 'MenuSideBarComponent', 'selector': 'app-menu-side-bar'},{'name': 'MessageConversationItemComponent', 'selector': 'app-message-conversation-item'},{'name': 'MessageConversationListComponent', 'selector': 'app-message-conversation-list'},{'name': 'MultiselectComponent', 'selector': 'app-multiselect'},{'name': 'MultiselectComponent', 'selector': 'app-multiselect'},{'name': 'OrgUnitFilterComponent', 'selector': 'app-org-unit-filter'},{'name': 'OrgUnitFilterComponent', 'selector': 'app-org-unit-filter'},{'name': 'PeriodFilterComponent', 'selector': 'app-period-filter'},{'name': 'PeriodFilterComponent', 'selector': 'app-period-filter'},{'name': 'ProgressLoaderComponent', 'selector': 'app-progress-loader'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportsContainerComponent', 'selector': 'app-reports-container'},{'name': 'ResourcesComponent', 'selector': 'app-resources'},{'name': 'ResourcesContainerComponent', 'selector': 'app-resources-container'},{'name': 'SharingFilterComponent', 'selector': 'app-sharing-filter'},{'name': 'TableContainerComponent', 'selector': 'app-table-container'},{'name': 'TableItemComponent', 'selector': 'app-table-item'},{'name': 'TableListComponent', 'selector': 'app-table-list'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'UsersContainerComponent', 'selector': 'app-users-container'},{'name': 'VisualizationCardComponent', 'selector': 'app-visualization-card'},{'name': 'VisualizationCardLoaderComponent', 'selector': 'app-visualization-card-loader'},{'name': 'VisualizationDeleteDialogComponent', 'selector': 'app-visualization-delete-dialog'},{'name': 'VisualizationDeleteSectionComponent', 'selector': 'app-visualization-delete-section'},{'name': 'VisualizationDownloadSectionComponent', 'selector': 'app-visualization-download-section'},{'name': 'VisualizationErrorNotifierComponent', 'selector': 'app-visualization-error-notifier'},{'name': 'VisualizationFilterSectionComponent', 'selector': 'app-visualization-filter-section'},{'name': 'VisualizationInterpretationButtonComponent', 'selector': 'app-visualization-interpretation-button'},{'name': 'VisualizationLegendComponent', 'selector': 'app-visualization-legend'},{'name': 'VisualizationListComponent', 'selector': 'app-visualization-list'},{'name': 'VisualizationResizeSectionComponent', 'selector': 'app-visualization-resize-section'},{'name': 'VisualizationTypesSectionComponent', 'selector': 'app-visualization-types-section'}];
     var DIRECTIVES = [{'name': 'AutosizeDirective', 'selector': '[Autosize]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'},{'name': 'ClickOutsideDirective', 'selector': '[appClickOutside]'}];
     var ACTUAL_COMPONENT = {'name': 'MultiselectComponent-1'};
 </script>
