@@ -1,9 +1,12 @@
 #dashboard-menu-list-container-desktop {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 40px;
+  /*height: 40px;*/
+  height: 60px;
   width: 100%;
+  font-size: 30px;
+  border-radius: 10px;
 }
 
 #dashboard-menu-left-container-desktop,
@@ -69,7 +72,8 @@
 
 #dashboard-menu-left-arrow-desktop:hover,
 #dashboard-menu-right-arrow-desktop:hover {
-  background: #f1f1f1;
+  /*background: #f1f1f1;*/
+  background-color: red;
 }
 
 #dashboard-menu-left-arrow-desktop:disabled,
@@ -90,4 +94,18 @@
 
 #dashboard-menu-create-desktop {
   border-right: solid thin #f1f1f1;
+}
+
+.dashboard-menu-list-container-desktop {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  background-color: red;
+}
+
+.dashboard-menu-item-block-desktop, .dashboard-menu-item-desktop {
+  background-color: red;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
 }

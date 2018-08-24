@@ -311,10 +311,7 @@ export class DashboardEffects {
   private _loadAll(): Observable<Dashboard[]> {
     return new Observable(observer => {
       this.httpClient.get(
-        `dashboards.json?fields=id,name,publicAccess,access,externalAccess,created,lastUpdated,
-      user[id,name],dashboardItems[id,type,created,lastUpdated,shape,appKey,reports[id,displayName],chart[id,displayName],
-    map[id,displayName],reportTable[id,displayName],eventReport[id,displayName],eventChart[id,displayName],
-    resources[id,displayName],users[id,displayName]]&paging=false`
+        `dataStore/nacpDashboard/dashboards`
       ).subscribe(
         (dashboardResponse: any) => {
           observer.next(dashboardResponse.dashboards || []);

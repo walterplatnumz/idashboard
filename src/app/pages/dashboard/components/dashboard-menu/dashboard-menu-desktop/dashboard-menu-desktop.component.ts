@@ -50,11 +50,11 @@ export class DashboardMenuDesktopComponent implements OnInit {
   }
 
   organizeMenu(width: number, forceReduce: boolean = false) {
-    let itemsPerPage = 8;
-    const additionalWidth =  800;
-    const approximatedItemsPerPage: number = (width - additionalWidth) / 100;
+    let itemsPerPage = 13;
+    const additionalWidth =  0;
+    const approximatedItemsPerPage: number = (width - additionalWidth) / 50;
 
-    if (approximatedItemsPerPage >= 1 && approximatedItemsPerPage <= 8) {
+    if (approximatedItemsPerPage >= 1 && approximatedItemsPerPage <= 13) {
       itemsPerPage = parseInt(approximatedItemsPerPage.toFixed(0), 10);
     } else if (approximatedItemsPerPage < 1) {
       itemsPerPage = 1;

@@ -11,7 +11,7 @@
         <span *ngIf="searchTerm" class="dashboard-menu-empty-title">No dashboards match found</span>
       </div>
         <div id="dashboard-menu-list-desktop" *ngIf="(dashboardMenuItems$ | async).length > 0">
-            <app-dashboard-menu-list-desktop
+            <app-dashboard-menu-list-desktop class="cainam-dashboard-menu"
               [dashboardMenuItems]="dashboardMenuItems$ | async"
             ></app-dashboard-menu-list-desktop>
         </div>

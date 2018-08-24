@@ -6,6 +6,7 @@
 .dashboard-title-block {
   flex: 3;
   display: flex;
+  margin-top: 20px;
 }
 
 .dashboard-notification {
