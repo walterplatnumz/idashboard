@@ -33,17 +33,18 @@ export class HomeComponent implements OnInit {
     this.dashboardsCreating$ = store.select(getDashboardCreateStatus);
     this.welcomingMessageObject = {
       0: {
-        title: 'Intuitive design patterns',
-        description: 'Enjoy simple, elegant and improved look and feel'
+        title: 'Welcome To NACP Dashboard',
+        description: 'Welcome To NACP Dashboard'
       },
       1: {
-        title: 'Impressive data visualizations',
-        description: 'Interactively visualize you data in charts, table and maps'
+        title: 'Welcome To NACP Dashboard',
+        description: 'Welcome To NACP Dashboard'
       },
       2: {
-        title: 'Impressive data dictionary',
-        description: 'Do not just look on your data, know more about your data'
-      }
+        title: 'Welcome To NACP Dashboard',
+        description: 'Welcome To NACP Dashboard'
+      },
+
     };
 
     this.welcomingMessage = this.welcomingMessageObject[this.getRandomInt(0, 2)];

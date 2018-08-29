@@ -5,7 +5,7 @@ export interface LegendClass {
   min: number;
   max: number;
   color: string;
-  icon: "",
+  icon: '';
   radius: number;
   count: number;
 }

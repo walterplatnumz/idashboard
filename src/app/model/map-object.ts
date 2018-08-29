@@ -1,8 +1,8 @@
-import {LegendSet} from "./legend-set";
+import {LegendSet} from './legend-set';
 export interface MapObject {
   id: string;
-  centeringLayer:any;
-  operatingLayers:any[];
+  centeringLayer: any;
+  operatingLayers: any[];
   mapLegend: any;
   options: {
     center: any;
@@ -13,8 +13,7 @@ export interface MapObject {
     scrollWheelZoom: boolean;
     layers: any[];
 
-  }
-
+  };
 }
 
 

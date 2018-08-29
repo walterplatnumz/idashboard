@@ -53,6 +53,7 @@
     "gis-api": "^25.0.4",
     "highcharts": "^6.0.4",
     "highcharts-grouped-categories": "^1.1.2",
+    "highcharts-heatmap": "^0.1.7",
     "jquery": "^3.3.1",
     "jszip": "^3.1.5",
     "leaflet": "^1.2.0",
@@ -91,7 +92,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^1.1.0",
-    "protractor": "^5.3.0",
+    "protractor": "^5.4.0",
     "ts-node": "^6.0.3",
     "tslint": "^5.9.1",
     "typescript": ">=2.4.2 <2.7.0"

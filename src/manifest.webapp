@@ -1,12 +1,12 @@
 {
     "version": "2.1.0-beta.13",
-    "name": "Interactive Dashboard 2 - Beta 13",
-    "description": "Interactive dashboard 2",
+    "name": "NACP Dashboard",
+    "description": "NACP Dashboard",
     "launch_path": "index.html",
     "icons": {
-        "16": "assets/img/icon-16x16.png",
-        "48": "assets/img/icon-48x48.png",
-        "128": "assets/img/icon-128x128.png"
+        "16": "assets/img/hiv.jpg",
+        "48": "assets/img/hiv.jpg",
+        "128": "assets/img/hiv.jpg"
     },
     "developer": {
         "name": "HISPTZ",

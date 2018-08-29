@@ -163,7 +163,7 @@ export class AnalyticsEffects {
 
     if (type === 'event') {
       const { aggregationType, startDate, endDate } = dataSelections;
-      if (aggregationType == 'agregate') {
+      if (aggregationType === 'agregate') {
         url += '/events/aggregate/' + this.getProgramParameters(dataSelections);
       } else {
         url += '/events/query/';
